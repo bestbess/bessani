@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bessie's Website</title>
+   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8be44e11f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/Gray_and_Black_Simple_Studio_Logo_3_-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Solution Architect</p>
+                <h1>Hi, I'm <span>Bessie</span> <br> from New york</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-------------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1"><img src="Images/WhatsApp Image 2024-11-08 at 2.20.20 PM.jpeg" alt=""> </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Welcome to my corner of the web! I'm Bessie Uzamere, Dynamic Project Manager and AWS Cloud Practitioner with close to a decade in financial services and tech, recognized for driving efficiency and cost savings through strategic cloud solutions and data-driven insights. Proven track record in designing and deploying secure, scalable AWS architectures, optimizing CRM systems, and spearheading compliance initiatives (ISO 27001). Skilled at managing cross-functional teams and delivering complex projects on time by leveraging Agile methodologies. Currently deepening expertise with AWS Solutions Architect Associate certification and practical projects in cloud infrastructure, automation, and customer-centric design.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Project Management</span><br>Agile Methodology </li>
+                            <li><span>Web Development</span><br>Web app Development </li>
+                            <li><span>Solutions Architect</span><br>AWS Cloud Computing </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Technical Project Manager at SmartMathz</li>
+                            <li><span>2024</span><br>Technical Project Manager at 7evenOaks</li>
+                            <li><span>2019-2021</span><br>Web Developer at Silicon Tech Analytics </li>
+                            <li><span>2014-2019</span><br>Solution Customer Specialist  at Zenith Bank plc </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>MSc Information Technology </li>
+                            <li><span>2023-current</span><br>Project Management Professional(PMP) </li>
+                            <li><span>2024</span><br>AWS Certified solutions Architect Associate</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!----------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>Technical Project Management</h2>
+                    <p>Project Planning and Execution: Offering comprehensive project management services, from initial
+                        planning and resource allocation to execution and delivery, ensuring projects are completed on
+                        time and within budget.
+                        Agile/Scrum Facilitation: Leading Agile/Scrum teams, managing sprints, and ensuring continuous
+                        delivery of value through iterative development.
+                        Risk Management: Identifying, assessing, and mitigating risks throughout the project lifecycle
+                        to ensure successful outcomes.
+                    </p>
+                    <a href="https://github.com/bestbess"></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Custom Web Application Development: 
+                        Building responsive and scalable web applications tailored to
+                        client needs, using technologies like Python, Java, JavaScript, and modern frameworks.
+                        Full-Stack Development: Providing end-to-end development services, from frontend design to
+                        backend implementation, ensuring seamless user experiences and robust backend functionality.
+                        API Development and Integration: Creating and integrating APIs to enhance application
+                        functionality and enable communication between different systems..
+                    </p>
+                    <a href="https://github.com/bestbess"></a>
+                </div>
+
+
+
+
+        
+
+                <div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <h2>Solutions Architect</h2>
+                    <p>Technology Strategy Consulting:
+                         Helping businesses develop and implement technology strategies
+                        that align with their goals and drive innovation.
+                        System Architecture and Design: Advising on the best practices for system architecture, ensuring
+                        scalability, security, and performance.
+                        Cloud Migration and Management: Assisting organizations in migrating their services to the
+                        cloud, optimizing cloud infrastructure, and managing cloud-based solutions.
+                    </p>
+                    <a href="https://github.com/bestbess"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/chat-bot(1).png" alt="">
+                    
+                    <div class="layer">
+                        <h3>E-Commerce Web Application with Serverless Backend on AWS</h3>
+                        <p>This project demonstrates full-stack development with AWS services, effective user authentication, serverless architecture, and agile project management skills.
+                        </p>
+                        <a href="https://github.com/bestbess"><i class="fa-solid fa-up-right-from-square"></i>coming soon</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/chat-bot.png" alt="chat-bot">
+                    <div class="layer">
+                        <h3>Portfolio Website with CI/CD Pipeline and Infrastructure as Code (IaC)</h3>
+                        <p>This project demonstrates an understanding of CI/CD, AWS deployment workflows, IaC, and responsive web design. It’s a hands-on way to show my ability to manage end-to-end delivery in a cloud environment.</P>
+                        <a href="https://github.com/bestbess"><i class="fa-solid fa-up-right-from-square"></i>coming soon</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/chat-bot(2).png" alt="">
+                    <div class="layer">
+                        <h3> Data Dashboard for Real-Time Analytics Using AWS and Data Visualization</h3>
+                        <p>This project demonstrates my ability to work with real-time data, AWS analytics services, and front-end development for data visualization. It also shows strong project management through effective data organization and goal tracking.
+                        </p>
+                        <a href="https://github.com/bestbess"><i class="fa-solid fa-up-right-from-square"></i>coming soon</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class='btn'>See More</a>
+        </div>
+    </div>
+
+    <!-------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bessieani24@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+1(000)000-askme</p>
+                    <div class="Social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bessani09"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/bestbess"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Solutions architect resume2.pdf" download class='btn btn2'>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="Copyright">
+            <p>Copyright @Bess made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
